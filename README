@@ -19,3 +19,5 @@ Test Defined Development since TDD is perfect for this sort of problem.
 Using the core concept of object equality plus features of lambdas a solution was remarkably concise.  What
 the toolkit does behind the scenes is a different question but the solution is compact from a code perspective.
 
+See the test class for the clearest example of how the code would be called, and see the NameFinder class for actual implementation.
+
