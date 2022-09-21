@@ -1,6 +1,7 @@
 This example came from a Java interview question.  It was a real-time assignment during the interview
 using some sort of wonky browser-based 'code with me' tool.  The server connection to the tool kept breaking,
-which didn't help things.  Unlike an IDE such as IntelliJ there were no code hints provided.
+which didn't help things.  Unlike an IDE such as IntelliJ there were no code hints provided, and you could not
+write/execute unit tests.
 
 The problem statement was "Given an array of names, write code which will find the most and least common name".
 No requirements were provided if there were duplicate most or least common names.
