@@ -1,0 +1,19 @@
+This example came from a Java interview question.  It was a real-time assignment during the interview
+using some sort of wonky browser-based 'code with me' tool.  The server connection to the tool kept breaking,
+which didn't help things.  Unlike an IDE such as IntelliJ there were no code hints provided.
+
+The problem statement was "Given an array of names, write code which will find the most and least common name".
+No requirements were provided if there were duplicate most or least common names.
+
+So the challenge was to write efficient code and avoid worst case scenario of O N complexity.  All in a live
+online scenario during a job interview with a team of interviewers peering over your shoulder, using a wonky IDE-sort of
+tool that periodically flaked out.  Had no idea this was coming, so I used my wife's Mac which lacked a mouse.  Ack!
+
+I could talk to the solution but that didn't pass muster with the interviewers so I didn't get the job - c'est la vie.
+
+Weeks later I thought about the problem and decided to explore writing a solution, this time using an actual IDE plus using
+Test Defined Development since TDD is perfect for this sort of problem.
+
+Using the core concept of object equality plus features of lambdas a solution was remarkably concise.  What
+the toolkit does behind the scenes is a different question but the solution is compact from a code perspective.
+
