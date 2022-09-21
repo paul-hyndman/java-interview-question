@@ -9,7 +9,8 @@ So the challenge was to write efficient code and avoid worst case scenario of O 
 online scenario during a job interview with a team of interviewers peering over your shoulder, using a wonky IDE-sort of
 tool that periodically flaked out.  Had no idea this was coming, so I used my wife's Mac which lacked a mouse.  Ack!
 
-I could talk to the solution but that didn't pass muster with the interviewers so I didn't get the job - c'est la vie.
+Without code hints or Javadoc access I started down the path of writing an inner class (which essentially lambdas are a facade for), and
+while I could talk to the solution that didn't pass muster with the interviewers so I didn't get the job - c'est la vie.
 
 Weeks later I thought about the problem and decided to explore writing a solution, this time using an actual IDE plus using
 Test Defined Development since TDD is perfect for this sort of problem.
